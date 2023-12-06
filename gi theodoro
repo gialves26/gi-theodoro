@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <title>Lugares Turísticos na Europa</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f7f7f7;
+            color: #333;
+        }
+        header {
+            background-color: #3498db;
+            color: #fff;
+            text-align: center;
+            padding: 1em 0;
+        }
+        section {
+            max-width: 800px;
+            margin: 20px auto;
+            padding: 20px;
+            background-color: #fff;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        h2 {
+            color: #3498db;
+        }
+        p {
+            line-height: 1.6;
+        }
+        .card {
+            display: flex;
+            border: 1px solid #ddd;
+            margin: 10px 0;
+            padding: 10px;
+            border-radius: 8px;
+            background-color: #fff;
+        }
+        .card img {
+            width: 150px;
+            height: 100px;
+            object-fit: cover;
+            border-radius: 4px;
+            margin-right: 10px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Lugares Turísticos na Europa</h1>
+    </header>
+
+    <section>
+        <h2>Paris, França</h2>
+        <div class="card">
+            <img src="paris.jpg" alt="Paris">
+            <p>A Torre Eiffel, os Museus do Louvre e d'Orsay, e as charmosas ruas de Montmartre fazem de Paris um destino incrível.</p>
+        </div>
+
+        <h2>Roma, Itália</h2>
+        <div class="card">
+            <img src="roma.jpg" alt="Roma">
+            <p>O Coliseu, o Vaticano e a Fontana di Trevi são apenas algumas das maravilhas históricas que Roma oferece aos visitantes.</p>
+        </div>
+
+        <h2>Barcelona, Espanha</h2>
+        <div class="card">
+            <img src="barcelona.jpg" alt="Barcelona">
+            <p>A arquitetura única de Gaudí, praias ensolaradas e uma vida noturna animada tornam Barcelona um destino imperdível na Europa.</p>
+        </div>
+
+        <!-- Adicione mais lugares turísticos conforme necessário -->
+    </section>
+</body>
+</html>
